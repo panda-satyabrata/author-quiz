@@ -1,7 +1,7 @@
 import React from "react";
-import "./bootstrap.min.css";
+import "../bootstrap.min.css";
 import "./AddAuthorForm.css";
-import AuthorForm from "./components/AuthorForm";
+import AuthorForm from "./AuthorForm";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 

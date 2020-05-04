@@ -1,6 +1,6 @@
 import React from "react";
 import "../bootstrap.min.css";
-import "../AddAuthorForm.css";
+import "./AddAuthorForm.css";
 
 class AuthorForm extends React.Component {
   constructor(props) {

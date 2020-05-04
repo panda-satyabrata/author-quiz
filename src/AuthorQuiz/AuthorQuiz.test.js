@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import AuthorQuiz from "./components/AuthorQuiz";
+import AuthorQuiz from "./AuthorQuiz/AuthorQuiz";
 import Enzyme, { mount } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 Enzyme.configure({ adapter: new Adapter() });
